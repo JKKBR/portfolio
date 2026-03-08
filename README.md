@@ -16,7 +16,7 @@ Acredito que cada linha de código é uma oportunidade de crescimento e adoro co
 
 ---
 
-## 📌 Projeto em destaque
+## 📌 Projetos em destaque
 
 ### [Crie Currículo Grátis](https://github.com/JKKBR/crie-curriculo-gratis)
 ![JavaScript](https://img.shields.io/badge/JavaScript-78%25-yellow)
@@ -24,13 +24,25 @@ Acredito que cada linha de código é uma oportunidade de crescimento e adoro co
 
 Aplicação web para criação de currículos online.  
 - **Tecnologias utilizadas:** JavaScript e HTML  
-- **Objetivo:** facilitar a criação de currículos de forma simples e gratuita.
+- **Objetivo:** facilitar a criação de currículos de forma simples e gratuita.  
+- **Demo online:** [Acessar o site](https://jkkbr.github.io/crie-curriculo-gratis/)
+
+---
+
+### [Gerador de Diagrama](https://github.com/JKKBR/gerador-de-diagrama)
+![JavaScript](https://img.shields.io/badge/JavaScript-50%25-yellow)
+![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-50%25-orange)
+
+Ferramenta visual para criar diagramas com blocos conectados por setas.  
+- **Tecnologias utilizadas:** HTML, CSS e JavaScript  
+- **Funcionalidades:** adicionar blocos, mover, renomear, mudar cores, conectar com setas e exportar em PNG.  
+- **Demo online:** [Acessar o site](https://jkkbr.github.io/gerador-de-diagrama/)
 
 ---
 
 ## 📫 Contato
 - GitHub: [github.com/JKKBR](https://github.com/JKKBR)  
-- Email: jkkbrgithub@gmail.com
+- Email: jkkbrgithub@gmail.com  
 
 ---
 
