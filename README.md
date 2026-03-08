@@ -30,7 +30,7 @@ Aplicação web para criação de currículos online.
 
 ## 📫 Contato
 - GitHub: [github.com/JKKBR](https://github.com/JKKBR)  
-- Email: jkkbr@exemplo.com  
+- Email: jkkbrgithub@gmail.com
 
 ---
 
