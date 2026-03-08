@@ -75,6 +75,41 @@
       });
     }
 
+    // Fogos de artifício
+    let fireworks = [];
+
+    function createFirework(x, y) {
+      for(let i=0; i<30; i++) {
+        fireworks.push({
+          x: x,
+          y: y,
+          dx: (Math.random()-0.5)*6,
+          dy: (Math.random()-0.5)*6,
+          life: 60,
+          color: `hsl(${Math.random()*360},100%,50%)`
+        });
+      }
+    }
+
+    function drawFireworks() {
+      fireworks.forEach((f, index) => {
+        ctx.beginPath();
+        ctx.arc(f.x, f.y, 3, 0, Math.PI*2);
+        ctx.fillStyle = f.color;
+        ctx.fill();
+        ctx.closePath();
+
+        f.x += f.dx;
+        f.y += f.dy;
+        f.dy += 0.05; // gravidade leve
+        f.life--;
+
+        if(f.life <= 0) {
+          fireworks.splice(index,1);
+        }
+      });
+    }
+
     function drawPlanets(){
       planets.forEach(p=>{
         ctx.beginPath();
@@ -91,6 +126,7 @@
       ctx.clearRect(0,0,canvas.width,canvas.height);
       drawStars();
       drawPlanets();
+      drawFireworks();
       requestAnimationFrame(draw);
     }
 
@@ -104,12 +140,14 @@
         if(dist < p.r){
           if(!visited.includes(p.name)){
             visited.push(p.name);
+            createFirework(p.x, p.y); // 🎆 fogos ao clicar
           }
           document.getElementById("gameMessage").innerHTML = 
             `🌌 Você descobriu <b>${p.name}</b>! <a href="${p.link}" target="_blank">Acessar</a>`;
           if(visited.length === planets.length){
             document.getElementById("gameMessage").innerHTML = 
               "🚀 <span style='color:#00cc88;'>Você explorou todo o universo JKKBR!</span>";
+            createFirework(canvas.width/2, canvas.height/2); // fogos extras no final
           }
         }
       });
