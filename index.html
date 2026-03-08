@@ -8,7 +8,7 @@
     body { 
       font-family: 'Poppins', sans-serif; 
       margin: 0; 
-      background: #0d0d0d; /* preto suave */
+      background: #0d0d0d; /* fundo preto */
       color: #e0e0e0; 
     }
     header { 
@@ -36,12 +36,21 @@
       font-weight: 600; 
       margin-bottom: 15px; 
     }
-    .projeto { 
+    .projeto, .servico { 
       background: #1a1a1a; 
       padding: 20px; 
       border-radius: 8px; 
       margin-bottom: 20px; 
       border: 1px solid #222; 
+    }
+    .servico h3 { 
+      color: #00aaff; 
+      margin-bottom: 10px; 
+    }
+    .servico p { 
+      color: #ccc; 
+      font-size: 14px; 
+      line-height: 1.5; 
     }
     .btn { 
       display: inline-block; 
@@ -72,6 +81,7 @@
     <nav>
       <a href="#sobre">Sobre mim</a>
       <a href="#projeto">Projeto</a>
+      <a href="#servicos">Consultoria</a>
       <a href="#contato">Contato</a>
     </nav>
   </header>
@@ -91,6 +101,27 @@
          <strong>JavaScript (78%)</strong> e <strong>HTML (22%)</strong>.</p>
       <a class="btn" href="https://jkkbr.github.io/crie-curriculo-gratis/" target="_blank">Acessar o site</a>
     </div>
+  </section>
+
+  <section id="servicos">
+    <h2>Consultoria Educacional</h2>
+    <div class="servico">
+      <h3>Mentoria Acadêmica</h3>
+      <p>Apoio na organização de ideias, estruturação de trabalhos e orientação em pesquisas.</p>
+    </div>
+    <div class="servico">
+      <h3>Revisão de Textos</h3>
+      <p>Correção de gramática, ortografia e formatação (ABNT/APA), garantindo clareza e qualidade.</p>
+    </div>
+    <div class="servico">
+      <h3>Aulas Particulares</h3>
+      <p>Explicações de conteúdos específicos em programação, matemática e tecnologia.</p>
+    </div>
+    <div class="servico">
+      <h3>Consultoria em Projetos</h3>
+      <p>Suporte em projetos práticos, como desenvolvimento de sites, aplicativos e relatórios técnicos.</p>
+    </div>
+    <a class="btn" href="mailto:jkkbrgithub@gmail.com">Solicitar Consultoria</a>
   </section>
 
   <footer id="contato">
