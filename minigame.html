@@ -30,16 +30,30 @@
     #gameMessage a:hover {
       text-decoration: underline;
     }
+    #tooltip {
+      position: absolute;
+      background: #1a1a1a;
+      color: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #00cc88;
+      display: none;
+      max-width: 220px;
+      font-size: 14px;
+      text-align: left;
+    }
   </style>
 </head>
 <body>
   <h1>🌌 Mini Game: Explorador de Constelações</h1>
   <canvas id="gameCanvas" width="800" height="500"></canvas>
   <p id="gameMessage"></p>
+  <div id="tooltip"></div>
 
   <script>
     const canvas = document.getElementById("gameCanvas");
     const ctx = canvas.getContext("2d");
+    const tooltip = document.getElementById("tooltip");
 
     // Planetas (projetos)
     const planets = [
@@ -68,7 +82,6 @@
         ctx.fillStyle = `rgba(255,255,255,${s.opacity})`;
         ctx.fill();
         ctx.closePath();
-        // piscar
         s.opacity += (Math.random()-0.5)*0.05;
         if(s.opacity<0) s.opacity=0;
         if(s.opacity>1) s.opacity=1;
@@ -101,7 +114,7 @@
 
         f.x += f.dx;
         f.y += f.dy;
-        f.dy += 0.05; // gravidade leve
+        f.dy += 0.05;
         f.life--;
 
         if(f.life <= 0) {
@@ -117,7 +130,6 @@
         ctx.fillStyle = p.color;
         ctx.fill();
         ctx.closePath();
-        // pulsar
         p.r = p.baseR + Math.sin(Date.now()/300)*3;
       });
     }
@@ -135,23 +147,44 @@
       const mouseX = e.clientX - rect.left;
       const mouseY = e.clientY - rect.top;
 
+      let clicked = false;
+
       planets.forEach(p=>{
         const dist = Math.sqrt((mouseX - p.x)**2 + (mouseY - p.y)**2);
         if(dist < p.r){
+          clicked = true;
           if(!visited.includes(p.name)){
             visited.push(p.name);
-            createFirework(p.x, p.y); // 🎆 fogos ao clicar
+            createFirework(p.x, p.y);
           }
           document.getElementById("gameMessage").innerHTML = 
             `🌌 Você descobriu <b>${p.name}</b>! <a href="${p.link}" target="_blank">Acessar</a>`;
+
+          // Mostrar balão com resumo
+          tooltip.style.left = (e.clientX + 10) + "px";
+          tooltip.style.top = (e.clientY - 40) + "px";
+          tooltip.innerHTML = `<b>${p.name}</b><br>${getSummary(p.name)}`;
+          tooltip.style.display = "block";
+
           if(visited.length === planets.length){
             document.getElementById("gameMessage").innerHTML = 
               "🚀 <span style='color:#00cc88;'>Você explorou todo o universo JKKBR!</span>";
-            createFirework(canvas.width/2, canvas.height/2); // fogos extras no final
+            createFirework(canvas.width/2, canvas.height/2);
           }
         }
       });
+
+      if(!clicked){
+        tooltip.style.display = "none";
+      }
     });
+
+    function getSummary(name){
+      if(name === "Crie Currículo Grátis") return "Ferramenta para criar currículos online de forma simples e gratuita.";
+      if(name === "Gerador de Diagrama") return "Editor visual para diagramas com blocos e setas, exportável em PNG.";
+      if(name === "Portfólio Online") return "Meu espaço digital reunindo projetos, ideias e experimentos.";
+      return "";
+    }
 
     draw();
   </script>
