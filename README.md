@@ -25,20 +25,14 @@ Ideal para quem gosta de organizar ideias, planejar projetos ou simplesmente des
 Personalize cores, fontes e exporte seu mapa mental em PNG.
 
 ---
-
-### 🛍️ [Brechó da Lucy](https://jkkbr.github.io/controle-estoque-brecho/)
-Uma vitrine digital para organizar e exibir produtos de forma simples e elegante.  
-Conta com login, painel administrativo, filtros de busca e cards com informações detalhadas (preço, estado e qualidade).  
-Feito com **HTML, CSS e JavaScript**, é um projeto que mistura utilidade prática com design limpo.
-
----
-
-## 🌟 Projetos Reais
-
-### 🛍️ Brechó Lucy
-🔗 [brecholucy.vercel.app](https://brecholucy.vercel.app)  
+### 🛍️ Brechó Lucy / Controle de Estoque Brechó
 Site vitrine criado para ajudar na divulgação dos produtos de um brechó local em Maricá.  
-O objetivo é facilitar a visualização dos itens disponíveis e permitir contato direto via WhatsApp, com retirada presencial e pagamento feito diretamente à vendedora (Pix ou dinheiro).
+Permite cadastrar itens, controlar reservas e vendas, além de exibir uma vitrine digital.  
+Desenvolvido em **HTML**, **CSS**, **JavaScript**, **Cloudinary** e **Supabase**.  
+
+🔗 Versões publicadas:  
+- [GitHub Pages](https://jkkbr.github.io/controle-estoque-brecho/)  
+- [Vercel](https://brecholucy.vercel.app/)
 
 ---
 
