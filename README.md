@@ -26,6 +26,13 @@ Personalize cores, fontes e exporte seu mapa mental em PNG.
 
 ---
 
+### 🛍️ [Brechó da Lucy](https://jkkbr.github.io/controle-estoque-brecho/)
+Uma vitrine digital para organizar e exibir produtos de forma simples e elegante.  
+Conta com login, painel administrativo, filtros de busca e cards com informações detalhadas (preço, estado e qualidade).  
+Feito com **HTML, CSS e JavaScript**, é um projeto que mistura utilidade prática com design limpo.
+
+---
+
 ## 🌟 Projetos Reais
 
 ### 🛍️ Brechó Lucy
