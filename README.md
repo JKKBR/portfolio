@@ -19,12 +19,34 @@ Acredito que cada linha de código é como uma estrela: isolada parece pequena, 
 Ferramenta prática para quem quer transformar experiências em um currículo profissional sem complicação.  
 Feito com JavaScript e HTML, é como uma impressora mágica de currículos online.
 
+---
+
 ### 🔮 Gerador de Diagrama
 Um editor visual para criar diagramas com blocos e setas.  
 Ideal para quem gosta de organizar ideias, planejar projetos ou simplesmente desenhar conexões entre pensamentos.  
 Personalize cores, fontes e exporte seu mapa mental em PNG.
 
 ---
+
+### 🚚 Projeto Simulador de Frota
+Uma aplicação interativa que integra conceitos de **redes de computadores**, **logística** e **CFTV** em um ambiente único.  
+O sistema apresenta um **mapa com 20 veículos fictícios**, cada um percorrendo rotas pré-definidas, alternando entre estados de rodando e parado, e realizando entregas simuladas.
+
+**Funcionalidades principais:**
+- Mapa interativo com rotas e veículos (Leaflet.js).  
+- Painel de Rotas com status, tempo de operação e entregas.  
+- Painel de Segurança com simulação de câmeras embarcadas e filmagens antigas.  
+- Dashboard com indicadores estratégicos (entregas, verificações, tempos médios).  
+- Gráficos dinâmicos (Chart.js).  
+- Banner final com slogan: *“Conectando Tecnologia, Transporte e Segurança”*.  
+
+**Tecnologias utilizadas:**
+- HTML5 / CSS3 / JavaScript  
+- Leaflet.js (mapas interativos)  
+- Chart.js (gráficos dinâmicos)  
+
+---
+
 ### 🛍️ Brechó Lucy / Controle de Estoque Brechó
 Site vitrine criado para ajudar na divulgação dos produtos de um brechó local em Maricá.  
 Permite cadastrar itens, controlar reservas e vendas, além de exibir uma vitrine digital.  
