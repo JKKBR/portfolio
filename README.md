@@ -53,7 +53,7 @@ Permite cadastrar itens, controlar reservas e vendas, além de exibir uma vitrin
 Desenvolvido em **HTML**, **CSS**, **JavaScript**, **Cloudinary** e **Supabase**.  
 
 🔗 Versões publicadas:  
-- [GitHub Pages](https://jkkbr.github.io/controle-estoque-brecho/)  
+- [GitHub Pages](https://jkkbr.github.io/sistema-de-gestao-inventario/)  
 - [Vercel](https://brecholucy.vercel.app/)
 
 ---
