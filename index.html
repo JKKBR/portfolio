@@ -2,207 +2,262 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Portfólio de JKKBR</title>
+  <title>JKKBR | Logística & Tecnologia</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
-    body { 
-      font-family: 'Poppins', sans-serif; 
-      margin: 0; 
-      background: #0d1b2a; /* azul escuro tecnológico */
-      color: #e0e0e0; 
+    :root {
+      --bg-main: #0b1623;
+      --bg-card: #131f2f;
+      --primary: #2f80ed;
+      --secondary: #f2994a;
+      --text-main: #eaeaea;
+      --text-muted: #b0b0b0;
+      --border-soft: #1f2f44;
     }
-    header { 
-      background: #0d1b2a; 
-      color: #1f78d1; /* azul médio para títulos */
-      padding: 30px 20px; 
-      text-align: center; 
-      border-bottom: 1px solid #1a1a1a;
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: var(--bg-main);
+      color: var(--text-main);
     }
-    nav { margin-top: 10px; }
-    nav a { 
-      color: #1f78d1; 
-      margin: 0 12px; 
-      text-decoration: none; 
-      font-weight: 600; 
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 1px solid var(--border-soft);
     }
-    nav a:hover { text-decoration: underline; }
-    section { 
-      padding: 40px; 
-      max-width: 800px; 
-      margin: auto; 
+
+    header h1 {
+      color: var(--primary);
+      margin-bottom: 5px;
     }
-    h2 { 
-      color: #1f78d1; 
-      font-weight: 600; 
-      margin-bottom: 15px; 
+
+    header p {
+      color: var(--text-muted);
+      max-width: 700px;
+      margin: auto;
     }
-    .projeto, .servico { 
-      background: #1a1a1a; 
-      padding: 20px; 
-      border-radius: 8px; 
-      margin-bottom: 20px; 
-      border: 1px solid #222; 
+
+    nav {
+      margin-top: 15px;
     }
-    .servico h3 { 
-      color: #1f78d1; 
-      margin-bottom: 10px; 
+
+    nav a {
+      color: var(--primary);
+      margin: 0 14px;
+      text-decoration: none;
+      font-weight: 600;
     }
-    .servico p { 
-      color: #ccc; 
-      font-size: 14px; 
-      line-height: 1.5; 
+
+    nav a:hover {
+      text-decoration: underline;
     }
-    .btn { 
-      display: inline-block; 
-      padding: 10px 20px; 
-      background: #f39c12; /* laranja para destaque */
-      color: #fff; 
-      border-radius: 5px; 
-      text-decoration: none; 
-      font-weight: 600; 
+
+    section {
+      padding: 60px 30px;
+      max-width: 900px;
+      margin: auto;
     }
-    .btn:hover { background: #d35400; } /* laranja mais escuro */
-    footer { 
-      background: #0d1b2a; 
-      color: #888; 
-      text-align: center; 
-      padding: 20px; 
-      border-top: 1px solid #1a1a1a; 
+
+    section h2 {
+      border-left: 4px solid var(--primary);
+      padding-left: 12px;
+      margin-bottom: 25px;
+      color: var(--primary);
+    }
+
+    .projeto, .servico {
+      background: var(--bg-card);
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid var(--border-soft);
+      margin-bottom: 25px;
+    }
+
+    .projeto h3 {
+      margin-top: 10px;
+      color: var(--primary);
+    }
+
+    .projeto p, .projeto li {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      margin-right: 6px;
+    }
+
+    .logistica { background: #2f80ed; color: #fff; }
+    .automacao { background: #27ae60; color: #fff; }
+    .dados      { background: #9b51e0; color: #fff; }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      border: 2px solid var(--secondary);
+      color: var(--secondary);
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: var(--secondary);
+      color: #000;
+    }
+
+    footer {
+      border-top: 1px solid var(--border-soft);
+      text-align: center;
+      padding: 25px;
+      color: var(--text-muted);
       font-size: 14px;
     }
-    footer a { color: #1f78d1; text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>JKKBR</h1>
-    <p>Estudante apaixonado por tecnologia</p>
-    <nav>
-      <a href="#sobre">Sobre mim</a>
-      <a href="#projeto">Projeto</a>
-      <a href="#servicos">Consultoria</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
 
-<section id="sobre" style="text-align:center; line-height:1.8; max-width:800px; margin:auto;">
-  <h2>Sobre mim</h2>
+<header>
+  <h1>JKKBR</h1>
   <p>
-    Sou estudante de <strong>Técnico em Logística</strong> e profissional de tecnologia, focado em transformar complexidade em organização.<br>
-    Com mais de <strong>15 anos de experiência em TI</strong>, entendo que a logística moderna acontece na intersecção entre o movimento físico e o fluxo de dados.<br><br>
+    Logística, Tecnologia e Controle Operacional — Transformando processos físicos em sistemas inteligentes orientados a dados.
+  </p>
 
-    Para mim, um <strong>estoque bem gerido</strong> é sinônimo de acuracidade,<br>
-    cada <strong>rota</strong> é uma busca por otimização,<br>
-    e cada <strong>processo</strong> deve ser blindado contra erros através da integridade de dados.<br><br>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#servicos">Consultoria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
 
-    Enquanto nas <strong>Redes de Computadores</strong> garanto que a informação trafegue com segurança e rapidez,<br>
-    na <strong>Logística</strong> aplico esse mesmo rigor para garantir a continuidade operacional e a eficiência do <strong>Supply Chain</strong>.<br><br>
+<section id="sobre">
+  <h2>Sobre Mim</h2>
 
-    Acredito na <strong>Logística 4.0</strong>: onde a <strong>tecnologia</strong>, o <strong>compliance</strong> e a <strong>gestão de fluxos</strong> se unem para criar operações mais inteligentes, seguras e produtivas. 🚀📦💻
+  <p>
+    Sou estudante de <strong>Técnico em Logística</strong> com mais de <strong>15 anos de experiência em Tecnologia da Informação</strong>.
+    Minha atuação conecta operações logísticas, acuracidade de dados e automação de processos.
+  </p>
+
+  <p>
+    Acredito que a logística moderna acontece na interseção entre <strong>estoques bem geridos</strong>,
+    <strong>rotas otimizadas</strong> e <strong>sistemas confiáveis</strong>.
+  </p>
+
+  <p>
+    Meu foco está em <strong>Logística 4.0</strong>, compliance operacional, prevenção de falhas (Poka-Yoke digital)
+    e integração entre campo, sistemas e dados.
   </p>
 </section>
 
-<section id="projeto">
-  <h2>Projetos em destaque</h2>
-
-
-  <!-- Projeto Real -->
-<div class="projeto">
-  <h3>📦 Sistema de Gestão de Inventário e Vitrine Digital (Artesanatos Lucia'S)</h3>
-<p>
-<strong>O que é:</strong> Um projeto real desenvolvido para um comércio local em Maricá, focado na digitalização do fluxo de mercadorias e no controle de estoque para operações de varejo de pequeno porte.
-  </p>
-  <ul>
-    <li><strong>Controle de Inventário:</strong> Implementação de funcionalidades para cadastro, edição e baixa de itens, garantindo a acuracidade entre o estoque físico e o sistema digital.</li>
-    <li><strong>Gestão de Reservas e Fluxo de Saída:</strong> Sistema de controle de status (disponível/reservado/vendido) para evitar furos de estoque e otimizar o atendimento à demanda.</li>
-    <li><strong>Organização de SKUs:</strong> Vitrine digital estruturada para facilitar a visualização e a identificação rápida dos produtos (processo de picking facilitado).</li>
-    <li><strong>Infraestrutura de Dados em Nuvem:</strong> Uso de Supabase (Banco de Dados) e Cloudinary para gestão de ativos e informações em tempo real, permitindo escalabilidade para o negócio.</li>
-    <li><strong>Impacto:</strong> Aumento da confiabilidade no controle de estoque e modernização da experiência de vendas digitais.</li>
-
-  </ul>
-  <p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript, Supabase, Cloudinary.</p>
-  <p><strong>Versões publicadas:</strong></p>
-  
-  <!-- Botões para cada versão -->
-  <a class="btn" href="https://jkkbr.github.io/sistema-de-gestao-inventario/" target="_blank">👉 GitHub Pages</a>
-  <a class="btn" href="https://artesanatoslucias.vercel.app/" target="_blank">👉 Vercel</a>
-</div>
-
-   <div class="projeto">
-  <h3>✨ OP-Flow-Validator (Poka-Yoke Digital)</h3>
-  <p>
-    <u>Automação e Conformidade de Dados</u><br><br>
-    Engine de padronização de dados operacionais focada em <u>Compliance</u> e <u>integridade da informação</u>.<br><br>
-
-    <u>Prevenção de Erros</u>: Travas lógicas para garantir a qualidade de documentos técnicos e relatórios.<br>
-    <u>Interoperabilidade</u>: Backup e importação via arquivos estruturados (.txt) para continuidade de processos.
-  </p>
-  <a class="btn" href="https://jkkbr.github.io/op-flow-validator/" target="_blank">Acessar o site</a>
-</div>">
-
-
- <div class="projeto">
-  <h3>🚚  LogiTrack: Simulador de Torre de Controle e Telemetria/h3>
-<p>
-Desenvolvimento de painel interativo para simulação <strong>logística</strong>, integrando rotas de transporte, monitoramento por câmeras e indicadores estratégicos. 
-O sistema demonstra como tecnologia pode apoiar operações logísticas, treinamento e análise de fluxos
-  </p>
-  <ul>
-    <li><strong>Rastreabilidade em Tempo Real</strong>: Mapa interativo (Leaflet.js) com acompanhamento de veículos e status de rota (em trânsito/parado).</li>
-    <li><strong>Torre de Controle (Control Tower)</strong>: Painéis dedicados ao fluxo de rotas e protocolos de segurança operacional.</li>
-    <li><strong>Gestão por Indicadores (KPIs)</strong>: Dashboard dinâmico com gráficos para análise de performance e produtividade das entregas.</li>
-    <li><strong>Monitoramento e Prevenção de Perdas</strong>: Integração simulada de CFTV para auditoria de carga e descarga.</li>
-    <li>Tecnologias:</strong> HTML5, CSS3, JavaScript, Leaflet.js, Chart.js</em></li>
-    <li>Diferencial: Integra logística, redes de computadores e CFTV em um único ambiente visual</em></li>
-        
-  </ul>
-  <p><strong>Slogan</strong> “Tecnologia aplicada à eficiência logística e segurança operacional.”</p>
-   <p><strong>Impacto prático:</strong> Projeto voltado para treinamento, análise de fluxos e demonstração de integração entre logística e tecnologia.</p>
-  <!-- Botão de acesso (quando publicar a versão online) -->
-  <a class="btn" href="https://jkkbr.github.io/simulador-de-frota/" target="_blank">Acessar o projeto</a>
-</div>
- 
+<section id="projetos">
+  <h2>Projetos em Destaque</h2>
 
   <div class="projeto">
-    <h3>Gerador de Diagrama</h3>
-    <p>Ferramenta visual para criar diagramas com blocos conectados por setas. 
-       Permite personalizar cores, fontes e exportar em PNG. Desenvolvido em 
-       <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
-    <a class="btn" href="https://jkkbr.github.io/gerador-de-diagrama/" target="_blank">Acessar o site</a>
+    <span class="tag logistica">LOGÍSTICA</span>
+    <span class="tag dados">DADOS</span>
+
+    <h3>📦 Sistema de Gestão de Inventário – Artesanatos Lucia’s</h3>
+
+    <p>
+      Projeto real para digitalização de estoque e vitrine comercial em varejo local.
+      Focado em acuracidade, rastreabilidade e controle operacional.
+    </p>
+
+    <ul>
+      <li>Controle de inventário (entrada, baixa, status)</li>
+      <li>Gestão de reservas evitando ruptura de estoque</li>
+      <li>Organização de SKUs e apoio ao picking</li>
+      <li>Infraestrutura em nuvem com dados em tempo real</li>
+    </ul>
+
+    <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript, Supabase, Cloudinary</p>
+
+    <a class="btn" href="https://jkkbr.github.io/sistema-de-gestao-inventario/" target="_blank">GitHub Pages</a>
+    <a class="btn" href="https://artesanatoslucias.vercel.app/" target="_blank">Vercel</a>
   </div>
-    
+
   <div class="projeto">
-    <h3>Mini Game: Explorador de Constelações</h3>
-    <p>Um jogo interativo onde você explora planetas que representam meus projetos.</p>
-    <a class="btn" href="minigame.html" target="_blank">Jogar agora</a>
+    <span class="tag automacao">AUTOMAÇÃO</span>
+    <span class="tag dados">COMPLIANCE</span>
+
+    <h3>✅ OP-Flow-Validator (Poka-Yoke Digital)</h3>
+
+    <p>
+      Engine de validação de dados operacionais para prevenção de falhas,
+      padronização de informações e integridade documental.
+    </p>
+
+    <ul>
+      <li>Travas lógicas para prevenção de erros humanos</li>
+      <li>Padronização de arquivos técnicos</li>
+      <li>Backup e interoperabilidade de dados</li>
+    </ul>
+
+    <a class="btn" href="https://jkkbr.github.io/op-flow-validator/" target="_blank">Acessar Projeto</a>
+  </div>
+
+  <div class="projeto">
+    <span class="tag logistica">LOGÍSTICA</span>
+    <span class="tag automacao">TORRE DE CONTROLE</span>
+
+    <h3>🚚 LogiTrack – Simulador de Torre de Controle Logística</h3>
+
+    <p>
+      Simulador de operação logística com rastreamento de frota,
+      análise de KPIs e monitoramento de fluxos.
+    </p>
+
+    <ul>
+      <li>Mapa interativo com status de rotas</li>
+      <li>Dashboard com indicadores operacionais</li>
+      <li>Simulação de CFTV para controle de perdas</li>
+      <li>Aplicação educacional e demonstrativa</li>
+    </ul>
+
+    <a class="btn" href="https://jkkbr.github.io/simulador-de-frota/" target="_blank">Acessar Projeto</a>
   </div>
 </section>
 
 <section id="servicos">
   <h2>Consultoria Educacional</h2>
+
   <div class="servico">
-    <h3>Mentoria Acadêmica</h3>
-    <p>Apoio na organização de ideias, estruturação de trabalhos e orientação em pesquisas.</p>
+    <h3>📘 Mentoria em Logística & Tecnologia</h3>
+    <p>Apoio acadêmico e técnico em projetos, relatórios e organização operacional.</p>
   </div>
-  <div class="servico">
-    <h3>Revisão de Textos</h3>
-    <p>Correção de gramática, ortografia e formatação (ABNT/APA), garantindo clareza e qualidade.</p>
-  </div>
-  <div class="servico">
-    <h3>Consultoria em Projetos</h3>
-    <p>Suporte em projetos práticos, como desenvolvimento de sites, aplicativos e relatórios técnicos.</p>
-  </div>
-  <a class="btn" href="mailto:jkkbrgithub@gmail.com">Solicitar Consultoria</a>
+
+  <a class="btn" href="mailto:jkkbrgithub@gmail.com">Solicitar Contato</a>
 </section>
 
 <footer id="contato">
   <p>
-    Contato: 
-    <a href="mailto:jkkbrgithub@gmail.com">jkkbrgithub@gmail.com</a> 
-    | GitHub: 
-    <a href="https://github.com/JKKBR">github.com/JKKBR</a>
+    📧 <a href="mailto:jkkbrgithub@gmail.com">jkkbrgithub@gmail.com</a> |
+    💻 <a href="https://github.com/JKKBR" target="_blank">github.com/JKKBR</a>
   </p>
 </footer>
+
 </body>
 </html>
