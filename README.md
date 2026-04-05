@@ -18,6 +18,7 @@ Acredito que cada linha de código é como uma estrela: isolada parece pequena, 
 ### ✨ Crie Currículo Grátis
 Ferramenta prática para quem quer transformar experiências em um currículo profissional sem complicação.  
 Feito com JavaScript e HTML, é como uma impressora mágica de currículos online.
+
 [Vercel](https://curriculointeligente.vercel.app/)
 
 ---
