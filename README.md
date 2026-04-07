@@ -15,11 +15,33 @@ Acredito que cada linha de código é como uma estrela: isolada parece pequena, 
 
 ## 🧩 Projetos em destaque
 
-### ✨ Crie Currículo Grátis
-Ferramenta prática para quem quer transformar experiências em um currículo profissional sem complicação.  
-Feito com JavaScript e HTML, é como uma impressora mágica de currículos online.
+---
 
-[Vercel](https://curriculointeligente.vercel.app/)
+# Ferramenta Web Gratuita para Criação de Currículos Profissionais
+
+Ferramenta web gratuita para criação e personalização de currículos profissionais, desenvolvida para funcionar **100% no navegador**, sem necessidade de cadastro ou armazenamento externo.
+
+## Recursos da Aplicação
+- **Formulários guiados** para preenchimento estruturado.
+- **Pré-visualização em tempo real** do currículo.
+- **Geração de PDF e TXT** prontos para envio.
+- **Assistente inteligente de adaptação à vaga**, que ajuda o usuário a alinhar o currículo aos requisitos de cada oportunidade e a sistemas ATS.
+
+## Foco da Solução
+- Clareza na apresentação das informações.  
+- Controle total do conteúdo pelo usuário.  
+- Privacidade garantida (sem envio de dados para servidores externos).  
+- Qualidade textual e eficácia em processos seletivos.  
+
+## Objetivo do Projeto
+O projeto busca **democratizar o acesso a currículos profissionais**, apoiando:  
+- Estudantes.  
+- Profissionais em transição de carreira.  
+- Candidatos que precisam adaptar rapidamente seus currículos para diferentes vagas.  
+
+Tudo de forma **simples, acessível e gratuita**.
+
+👉 [Curriculo-for-ats](https://jkkbr.github.io/curriculo-for-ats/)
 
 ---
 
