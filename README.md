@@ -1,88 +1,99 @@
-# 🌌 Fabio Santos | Tecnologia Aplicada à Logística & Eficiência Operacional
+# 📦 Fabio Santos | Logística Operacional com Apoio de Tecnologia
 
-Bem-vindo ao meu espaço de desenvolvimento e inovação!
-Aqui, utilizo minha bagagem de **15 anos em Tecnologia da Informação** para construir soluções que conectam o mundo digital ao fluxo físico da logística moderna.
+Bem‑vindo ao meu espaço profissional.  
+Aqui concentro projetos e estudos voltados ao apoio à rotina logística, controle operacional e organização de processos, utilizando tecnologia como ferramenta prática, aplicada ao dia a dia da operação.  
 
----
-
-## 🚀 Quem sou eu?
-Profissional com sólida experiência em infraestrutura de TI e suporte a operações críticas. Atualmente cursando **Logística e Redes de Computadores**, unindo tecnologia e gestão para resolver desafios de **Supply Chain**. Acredito que a eficiência de uma entrega começa na **integridade dos dados** e na visibilidade total da operação.
+Meu foco está em recebimento, controle de estoque, logística reversa, prevenção de perdas e integridade de dados, buscando sempre simplificar rotinas e aumentar a confiabilidade das informações operacionais.
 
 ---
 
-## 📦 Projetos em Destaque (Foco: Logística 4.0)
+## 👤 Quem sou eu
+Profissional com experiência em infraestrutura de TI aplicada a ambientes operacionais, atualmente em formação técnica em Logística.  
+Atuo com visão prática sobre processos, priorizando organização, rastreabilidade, controle e redução de desperdícios.  
 
-🚚 **LogiTrack: Simulador de Torre de Controle e Telemetria**
+Minha vivência em tecnologia me permite apoiar operações logísticas com maior controle de dados, padronização de rotinas e visão de processo, sempre respeitando a realidade do chão da operação.
 
-Plataforma de monitoramento em tempo real que integra Logística, Redes e Segurança Patrimonial (CFTV).
-- **Visibilidade Total:** Rastreabilidade geográfica e status de ativos em tempo real (Leaflet.js).
-- **Gestão de KPIs:** Dashboards dinâmicos com indicadores de performance e SLAs de entrega (Chart.js).
-- **Segurança Operacional:** Integração de protocolos para prevenção de perdas e auditoria de carga.
+[Meu Currículo](https://jkkbr.github.io/curriculo/)
+---
 
-👉 [Acesse o LogiTrack](https://jkkbr.github.io/simulador-de-frota/)  
+## 🏭 Projetos em Destaque
+### 🚚 LogiTrack – Simulador de Controle Operacional e Monitoramento
+Projeto desenvolvido com foco em visualização do fluxo operacional, controle de ativos e acompanhamento de indicadores logísticos.
+
+**Aplicações práticas:**
+- Controle visual de ativos e localização geográfica (simulação)  
+- Acompanhamento de status operacional e SLAs  
+- Apoio à prevenção de perdas e auditoria de processos  
+
+👉 A ideia do projeto é demonstrar como dados organizados ajudam a identificar falhas operacionais, gargalos e oportunidades de melhoria na logística.  
+🔗 [Simulador de Frota](https://jkkbr.github.io/simulador-de-frota/)
 
 ---
 
-📦 **Sistema de Gestão de Inventário - Artesanatos Lucia'S**
+### 📦 Sistema de Gestão de Inventário – Artesanatos Lucia’S
+Sistema funcional desenvolvido para digitalização do controle de estoque, simulando uma operação real de pequeno porte.
 
- Solução funcional desenvolvida para digitalizar o controle de estoque e fluxo de mercadorias.
-- **Acuracidade de Inventário:** Gestão de entradas, saídas e status de reserva para evitar rupturas de estoque.
-- **Gestão de SKUs:** Estrutura otimizada para processos de picking e identificação de produtos.
-- **Infraestrutura em Nuvem:** Dados sincronizados via Supabase e Cloudinary.
+**Funcionalidades com foco operacional:**
+- Controle de entradas, saídas e reservas  
+- Organização de SKUs e status de mercadorias  
+- Apoio à acuracidade do inventário e redução de perdas  
 
-🔗 Versões publicadas:  
-- [GitHub Pages](https://jkkbr.github.io/sistema-de-gestao-inventario/)  
-- [Vercel](https://artesanatoslucias.vercel.app/)
+O projeto reforça conceitos de inventário rotativo, rastreabilidade e integridade dos dados.  
 
----
-
-# Ferramenta Web Gratuita para Criação de Currículos Profissionais
-
-Ferramenta web gratuita para criação e personalização de currículos profissionais, desenvolvida para funcionar **100% no navegador**, sem necessidade de cadastro ou armazenamento externo.
-
-## Recursos da Aplicação
-- **Formulários guiados** para preenchimento estruturado.
-- **Pré-visualização em tempo real** do currículo.
-- **Geração de PDF e TXT** prontos para envio.
-- **Assistente inteligente de adaptação à vaga**, que ajuda o usuário a alinhar o currículo aos requisitos de cada oportunidade e a sistemas ATS.
-
-## Foco da Solução
-- Clareza na apresentação das informações.  
-- Controle total do conteúdo pelo usuário.  
-- Privacidade garantida (sem envio de dados para servidores externos).  
-- Qualidade textual e eficácia em processos seletivos.  
-
-## Objetivo do Projeto
-O projeto busca **democratizar o acesso a currículos profissionais**, apoiando:  
-- Estudantes.  
-- Profissionais em transição de carreira.  
-- Candidatos que precisam adaptar rapidamente seus currículos para diferentes vagas.  
-
-Tudo de forma **simples, acessível e gratuita**.
-
-👉 [Curriculo-for-ats](https://jkkbr.github.io/curriculo-for-ats/)
+🔗 Acessos:  
+- [Sistema de Gestão de Inventário](https://jkkbr.github.io/sistema-de-gestao-inventario/)  
+- [Artesanatos Lucia’S](https://artesanatoslucias.vercel.app/)
 
 ---
 
-📊 Gerador de Diagramas Operacionais
-Editor interativo para criação de fluxogramas e diagramas de processos, ideal para mapeamento de fluxos logísticos e arquitetura de redes.
+### 🎓 CenariLog Academy – Plataforma de Desenvolvimento Profissional em Logística
 
-Exportação em PNG e personalização de conexões.
+Plataforma voltada ao desenvolvimento de competências e acompanhamento da evolução profissional na área logística.
 
- [Acesse o Diagrama](https://jkkbr.github.io/gerador-de-diagrama/)
+**Principais recursos:**
+- Trilhas de aprendizagem
+- Controle de metas
+- Desenvolvimento de habilidades
+- Gestão da jornada profissional
+
+🔗 [Acessar Plataforma](https://cenarilog-academy.vercel.app/)
+
+📚 Documentação:
+- 📘 [Manual Iniciante](https://github.com/JKKBR/JKKBR/blob/main/docs/Manual_Iniciante_CenariLog_Academy_v3.docx)
+- 🔧 [Manual Técnico](https://github.com/JKKBR/JKKBR/blob/main/docs/Manual_Tecnico_Cenarilog_Academy_v3.docx)
+  
+🎯 O projeto demonstra conceitos de capacitação operacional, gestão do conhecimento, padronização de processos e aplicação de tecnologia ao desenvolvimento profissional na logística.
+
+### 🧩 Ferramenta Web – Currículo para Sistemas ATS
+Ferramenta gratuita para criação e adaptação de currículos, com foco em processos seletivos reais e leitura por sistemas ATS (como Sólides).
+
+**Principais recursos:**
+- Preenchimento guiado e estruturado  
+- Pré‑visualização em tempo real  
+- Exportação em PDF e TXT  
+- Apoio à adaptação do currículo conforme a vaga  
+
+🎯 Objetivo: apoiar profissionais em início de carreira ou transição, promovendo clareza, organização e assertividade nos currículos.  
+🔗 [Currículo for ATS](https://jkkbr.github.io/curriculo-for-ats/)
 
 ---
 
-## 🌐 Meu Portfólio Online
+### 📊 Gerador de Diagramas Operacionais
+Editor simples para criação de fluxogramas e diagramas de processos, aplicável a:
+- Mapeamento de fluxo logístico  
+- Padronização de rotinas  
+- Organização visual de processos operacionais  
 
-👉 [Acesse o Portfólio Online](https://jkkbr.github.io/portfolio/)
+🔗 [Gerador de Diagrama](https://jkkbr.github.io/gerador-de-diagrama/)
 
 ---
 
-📫 Contato e Conexões
+## 🌐 Portfólio Online
+👉 [Portfólio](https://jkkbr.github.io/portfolio/)
 
-LinkdIn: [Fabiofss](https://linkedin.com/in/fabiofss/)
+---
 
-Localização: Rio de Janeiro - RJ
-
-E-mail Profissional: fabiofss@outlook.pt
+## 📫 Contato
+📍 Rio de Janeiro – RJ  
+🔗 [LinkedIn](https://linkedin.com/in/fabiofss)  
+📧 **fabiofss@outlook.pt**
