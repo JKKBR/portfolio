@@ -59,8 +59,8 @@ Plataforma voltada ao desenvolvimento de competências e acompanhamento da evolu
 🔗 [Acessar Plataforma](https://cenarilog-academy.vercel.app/)
 
 📚 Documentação:
-- 📘 [Manual Iniciante](https://github.com/JKKBR/JKKBR/blob/main/docs/Manual_Iniciante_CenariLog_Academy_v3.docx)
-- 🔧 [Manual Técnico](https://github.com/JKKBR/JKKBR/blob/main/docs/Manual_Tecnico_Cenarilog_Academy_v3.docx)
+- 📘 [Manual Iniciante](https://github.com/JKKBR/JKKBR/blob/main/docs/Manual_Iniciante_CenariLog_Academy_v3.docx.docx)
+- 🔧 [Manual Técnico](https://github.com/JKKBR/JKKBR/blob/main/docs/Manual_Tecnico_Cenarilog_Academy_v3.docx.docx)
   
 🎯 O projeto demonstra conceitos de capacitação operacional, gestão do conhecimento, padronização de processos e aplicação de tecnologia ao desenvolvimento profissional na logística.
 
